@@ -5,19 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Billie Amit - Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <span class="logo">&lt;BillieAmit &nbsp;&sol;&gt;</span>
-      <nav class="nav-top">
-        <a href="#">Home</a>
-        <a href="#work">My work</a>
-        <a href="#clients">About</a>
-        <a href="#hire"><button>Hire me</button></a>
-      </nav>
-      <div class="menu-hamburger">
-        <img src="icons/menu.svg" alt="menu icon" />
+      <div class="container nav-top-container">
+        <span class="logo">&lt;BillieAmit &nbsp;&sol;&gt;</span>
+        <nav class="nav-top">
+          <a class="home" href="#">Home</a>
+          <a class="work" href="#work">My work</a>
+          <a class="about" href="#clients">About</a>
+          <a href="#hire"
+            ><button class="button hire-button">Hire me</button></a
+          >
+        </nav>
+        <div class="menu-hamburger">
+          <img src="icons/menu.svg" alt="menu icon" />
+        </div>
       </div>
     </header>
 
@@ -45,7 +55,7 @@
           I'm a front-end developer Looking for the opportunity to apply my
           creative, technical, and communicative skills to a development team.
         </p>
-        <button>
+        <button class="button">
           <div>
             <img src="icons/eye.svg" alt="eye icon" />
           </div>
