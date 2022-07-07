@@ -168,6 +168,22 @@ h1 {
   font-size: 3rem;
 }
 
+.underline {
+  position: relative;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 0.6rem;
+  width: 100%;
+  bottom: 11px;
+  left: 0;
+  background-color: var(--clr-theme);
+  border-radius: 2px;
+}
+
 .hero-content h4,
 .hero-content p {
   color: var(--clr-secondary);
