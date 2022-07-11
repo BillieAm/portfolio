@@ -83,6 +83,19 @@ section {
   border: none;
 }
 
+.secondary-title {
+  font-size: 1.875rem;
+}
+
+.secondary-title::before {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 0.5rem;
+  background-color: var(--clr-theme);
+  border-radius: 20px;
+}
+
 /* Header */
 
 header {
