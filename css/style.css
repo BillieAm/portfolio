@@ -54,6 +54,7 @@ picture {
 
 .container {
   max-width: 80em;
+  margin-inline: auto;
 }
 
 /* ------------------- */
@@ -71,6 +72,23 @@ body {
 section {
   padding-inline: 2em;
   margin-bottom: 6em;
+}
+
+.subtitle,
+.description {
+  color: var(--clr-secondary);
+}
+
+.subtitle {
+  margin: 1.5em 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.description {
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .button {
@@ -105,7 +123,7 @@ header {
 }
 
 .nav-top-container {
-  margin-inline: auto;
+  /* margin-inline: auto; */
   padding: 0 2em;
   display: flex;
   justify-content: space-between;
@@ -196,23 +214,6 @@ h1 {
   border-radius: 2px;
 }
 
-.hero-content h4,
-.hero-content p {
-  color: var(--clr-secondary);
-}
-
-.hero-content h4 {
-  margin: 1.5em 0;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 4px;
-}
-
-.hero-content p {
-  font-weight: 600;
-  line-height: 1.7;
-}
-
 .button-big {
   margin: 2em 0;
   padding: 1em 2em;
@@ -251,4 +252,25 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 2em;
+}
+
+/* My work */
+
+.portfolio__item {
+  margin-bottom: 3em;
+  padding: 1em;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px var(--clr-theme);
+}
+
+.item__images {
+  position: relative;
+  display: inline-block;
+}
+
+.img-mobile {
+  position: absolute;
+  width: 20%;
+  bottom: 0;
+  right: 1.1em;
 }
