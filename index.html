@@ -15,10 +15,9 @@
     <!-- font awesome icons -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -38,8 +37,8 @@
 
     <!-- Hero section -->
 
-    <section class="hero container flex">
-      <nav class="nav-side">
+    <section class="hero container">
+      <nav class="hero__nav-side">
         <a href="#">
           <span>Home</span>
         </a>
@@ -54,25 +53,23 @@
         </a>
       </nav>
 
-      <div class="hero-content">
+      <div class="hero__content">
         <h1>Hi, I'm <span class="underline">Billie</span>.</h1>
         <h4 class="subtitle">Frontend Developer</h4>
         <p class="description">
           Looking for the opportunity to apply my creative, technical, and
           communicative skills to a development team.
         </p>
-        <button class="button button-big">
-          <img src="icons/eye.svg" alt="eye icon" />
+        <a href="#work" class="button button-big">
+          <img src="./icons/eye.svg" alt="view icon" class="btn-icon" />
           <span>View my work</span>
-        </button>
-        <div class="photo-container">
-          <div class="photo">
-            <img
-              src="./images/billie-removed-bg_crop.png"
-              alt="a picture of billie smiling"
-            />
-          </div>
-        </div>
+        </a>
+
+        <img
+          src="./images/billie-removed-bg_crop.png"
+          alt="a picture of billie smiling"
+          class="photo__img"
+        />
       </div>
     </section>
 
@@ -119,6 +116,7 @@
               deleniti repudiandae minima quam incidunt placeat deserunt
               asperiores omnis fugit distinctio iusto laborum!
             </p>
+            <a href="" class="button portfolio-btn">Live</a>
           </div>
         </div>
       </div>
