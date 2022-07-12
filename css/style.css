@@ -119,12 +119,7 @@ section {
 /* Header */
 
 header {
-  padding: 1.5em 0;
-}
-
-.nav-top-container {
-  /* margin-inline: auto; */
-  padding: 0 2em;
+  padding: 1.5em 2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,20 +139,17 @@ header {
   text-decoration: none;
 }
 
-.nav-top a:hover,
-.nav-top a:focus {
+.nav-top a:not(:last-child):hover,
+.nav-top a:not(:last-child):focus {
   color: var(--clr-secondary);
 }
 
 .nav-top .home {
   color: var(--clr-selected-text);
 }
-/* 
-.nav-top .hire-btn {
-}
- */
+
 @media (min-width: 768px) {
-  .nav-top-container {
+  header {
     padding-left: 3.5em;
     padding-right: 3.5em;
   }
@@ -177,14 +169,10 @@ header {
 }
 
 @media (min-width: 1024px) {
-  .nav-top-container {
+  header {
     padding-left: 6em;
     padding-right: 6em;
   }
-}
-
-.nav-side {
-  display: none;
 }
 
 /* Hero */
@@ -192,6 +180,10 @@ header {
 .hero {
   min-height: 100vh;
   margin-top: 3em;
+}
+
+.nav-side {
+  display: none;
 }
 
 h1 {
