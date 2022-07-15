@@ -306,6 +306,16 @@ h1 {
 }
  */
 
+/* About me */
+
+.about__btn {
+  display: inline-flex;
+}
+
+.about__btn-icon {
+  margin-right: 0.4em;
+}
+
 /* Hire me */
 
 .hire__content {
