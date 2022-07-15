@@ -14,6 +14,8 @@
   --clr-input-border: #565666;
   --clr-input: #2a2a35;
 
+  --clr-react-icon: #61dbfb;
+
   /* Shapes */
 
   --blob1: "M227.4 68.25C247.5 92.7 259.05 121.35 256.2 147.15C253.35 172.95 236.1 195.9 216 212.25C195.9 228.75 172.95 238.65 144.6 244.05C116.4 249.3 82.8 250.05 65.25 233.7C47.7 217.2 46.05 183.6 47.85 151.8C49.65 119.85 54.6 89.7 72.15 65.25C89.7 40.65 119.85 21.9 149.25 22.65C178.65 23.4 207.3 43.65 227.4 68.25Z";
@@ -34,7 +36,6 @@
 img,
 picture {
   max-width: 100%;
-  display: block;
 }
 
 body,
@@ -195,7 +196,7 @@ header {
 /* Hero */
 
 .hero {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin-top: 3em;
 }
 
@@ -234,6 +235,7 @@ h1 {
 }
 
 .photo__img {
+  display: block;
   margin-inline: auto;
   border-radius: 40px;
 }
@@ -281,6 +283,14 @@ h1 {
   width: 20%;
   bottom: 0;
   right: 1.1em;
+}
+
+.portfolio__stack-icon {
+  font-size: 1.7rem;
+}
+
+.react-icon {
+  color: var(--clr-react-icon);
 }
 
 .portfolio__description {
