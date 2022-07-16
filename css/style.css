@@ -261,10 +261,9 @@ h1 {
 /* Technologies */
 
 .tech-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6.25em, 1fr));
+  grid-gap: 1em;
 }
 
 /* My work */
