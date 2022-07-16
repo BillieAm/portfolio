@@ -15,6 +15,9 @@
   --clr-input: #2a2a35;
 
   --clr-react-icon: #61dbfb;
+  --clr-linkedin-icon: #0072b1;
+  --clr-github-icon: #000;
+  --clr-mail-icon: #db4437;
 
   /* Shapes */
 
@@ -351,4 +354,34 @@ h1 {
 .form__message-input {
   height: 14em;
   resize: none;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--clr-input);
+}
+
+.footer__icons {
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.footer__icon {
+  margin-inline: 0.3em;
+  color: var(--clr-secondary);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.footer__linkedin-icon:hover {
+  color: var(--clr-linkedin-icon);
+}
+
+.footer__github-icon:hover {
+  color: var(--clr-github-icon);
+}
+
+.footer__mail-icon:hover {
+  color: var(--clr-mail-icon);
 }
