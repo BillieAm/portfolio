@@ -359,16 +359,16 @@ h1 {
 
 footer {
   background-color: var(--clr-input);
+  color: var(--clr-secondary);
+  text-align: center;
 }
 
 .footer__icons {
-  text-align: center;
   padding: 1.5em 0;
 }
 
 .footer__icon {
   margin-inline: 0.3em;
-  color: var(--clr-secondary);
   font-size: 2rem;
   cursor: pointer;
 }
@@ -383,4 +383,8 @@ footer {
 
 .footer__mail-icon:hover {
   color: var(--clr-mail-icon);
+}
+
+.footer__p {
+  font-size: 0.8rem;
 }
