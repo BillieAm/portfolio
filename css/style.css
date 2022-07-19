@@ -434,6 +434,13 @@ h1 {
   resize: none;
 }
 
+@media (min-width: 797px) {
+  .hire__content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+  }
+}
+
 /* ------------------- */
 /* Footer              */
 /* ------------------- */
