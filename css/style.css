@@ -70,6 +70,7 @@ body {
   margin: 0;
   background-color: var(--clr-body);
   color: #fff;
+  font-family: sans-serif;
   font-family: "Poppins", sans-serif;
   line-height: 1.6;
 }
@@ -196,7 +197,6 @@ header {
 /* ------------------- */
 
 .hero {
-  /* min-height: 100vh; */
   margin-top: 3em;
 }
 
@@ -300,6 +300,7 @@ h1 {
   box-shadow: 0px 0px 10px 0.2px hsl(var(--clr-theme));
   display: flex;
   flex-direction: column;
+  gap: 1em;
 }
 
 .portfolio__images {
@@ -308,7 +309,6 @@ h1 {
 }
 
 .portfolio__img-desktop {
-  /* height: 100%; */
   object-fit: cover;
 }
 
@@ -317,10 +317,6 @@ h1 {
   width: 20%;
   bottom: 0;
   right: 1.1em;
-}
-
-.portfolio__subtitle {
-  margin-top: 1em;
 }
 
 .portfolio__stack-icons {
@@ -336,10 +332,12 @@ h1 {
 }
 
 .portfolio__buttons-container {
+  list-style: none;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap: 5%;
+  gap: 1em;
 }
 
 .portfolio__btn {
@@ -354,7 +352,7 @@ h1 {
   .portfolio__item {
     padding: 2em;
     flex-direction: row;
-    gap: 7%;
+    gap: 2em;
   }
 
   .portfolio__images-container {
@@ -363,13 +361,12 @@ h1 {
   }
 
   .portfolio__images {
-    min-width: 400px;
+    width: 400px;
   }
 
   .portfolio__details {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
   }
 
   .portfolio__subtitle {
@@ -378,6 +375,15 @@ h1 {
 
   .portfolio__buttons-container {
     justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio__item {
+    gap: 3em;
+  }
+  .portfolio__images {
+    width: 500px;
   }
 }
 
@@ -456,4 +462,8 @@ footer {
 
 .footer__p {
   font-size: 0.8rem;
+}
+
+ion-icon {
+  color: blue;
 }
