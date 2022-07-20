@@ -409,13 +409,10 @@ h1 {
 /* Hire me             */
 /* ------------------- */
 
-.hire__content {
-  display: grid;
-}
-
 .form__item {
   margin-bottom: 3em;
 }
+
 .form__label {
   display: block;
   font-weight: 700;
@@ -435,9 +432,9 @@ h1 {
 }
 
 @media (min-width: 797px) {
-  .hire__content {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2em;
+  .form {
+    max-width: 600px;
+    margin-inline: auto;
   }
 }
 
