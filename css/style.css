@@ -14,7 +14,12 @@
   --clr-input-border: #565666;
   --clr-input: #2a2a35;
 
+  --clr-html-icon: #e34c26;
+  --clr-css-icon: #264de4;
+  --clr-js-icon: #f0db4f;
   --clr-react-icon: #61dbfb;
+  --clr-typescript-icon: #007acc;
+  --clr-git-icon: #f34f29;
   --clr-linkedin-icon: #0072b1;
   --clr-github-icon: #000;
   --clr-mail-icon: #db4437;
@@ -396,6 +401,43 @@ h1 {
 /* ------------------- */
 /* About me            */
 /* ------------------- */
+.about__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  color: var(--clr-selected-text);
+}
+
+.devicon-html5-plain:hover,
+.devicon-html5-plain:focus {
+  color: var(--clr-html-icon);
+}
+.devicon-css3-plain:hover,
+.devicon-css3-plain:focus {
+  color: var(--clr-css-icon);
+}
+.devicon-javascript-plain:hover,
+.devicon-javascript-plain:focus {
+  color: var(--clr-js-icon);
+}
+.devicon-react-original:hover,
+.devicon-react-original:focus {
+  color: var(--clr-react-icon);
+}
+.devicon-typescript-plain:hover,
+.devicon-typescript-plain:focus {
+  color: var(--clr-typescript-icon);
+}
+.devicon-git-plain:hover,
+.devicon-git-plain:focus {
+  color: var(--clr-git-icon);
+}
 
 .resume__btn {
   display: inline-flex;
@@ -405,15 +447,11 @@ h1 {
   margin-right: 0.4em;
 }
 
-.skills {
-  display: flex;
-}
-
-.skills svg {
-  fill: var(--clr-selected-text);
-}
-
 @media (min-width: 797px) {
+  .about__content {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
 }
 
 /* ------------------- */
