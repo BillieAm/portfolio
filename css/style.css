@@ -397,23 +397,23 @@ h1 {
 /* About me            */
 /* ------------------- */
 
-.about__btn {
+.resume__btn {
   display: inline-flex;
 }
 
-.about__btn-icon {
+.resume__btn-icon {
   margin-right: 0.4em;
 }
 
 .skills {
   display: flex;
-  justify-content: space-between;
-  gap: 10%;
-  margin-bottom: 1em;
 }
 
-.skills__logo {
-  width: 100%;
+.skills svg {
+  fill: var(--clr-selected-text);
+}
+
+@media (min-width: 797px) {
 }
 
 /* ------------------- */
