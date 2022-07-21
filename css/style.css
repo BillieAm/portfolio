@@ -358,16 +358,6 @@ h1 {
   margin-right: 0.25em;
 }
 
-.storybook-btn {
-  background-color: var(--clr-selected-text);
-  color: var(--clr-body);
-}
-
-.storybook-btn:hover,
-.storybook-btn:focus {
-  color: var(--clr-selected-text);
-}
-
 @media (min-width: 797px) {
   .portfolio__item {
     padding: 2em;
