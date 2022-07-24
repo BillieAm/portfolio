@@ -251,11 +251,22 @@ header {
   }
 
   .nav-top {
+    transform: translate(0);
     flex-direction: row;
+    font-size: inherit;
+    font-weight: inherit;
+    position: relative;
+    background-color: var(--clr-body);
+    padding: 0;
+    gap: 0;
   }
 
   .nav-top__item {
     margin-left: 3em;
+  }
+
+  .nav-top .home {
+    color: var(--clr-selected-text);
   }
 
   .nav-top__item:not(:last-child):hover,
@@ -263,8 +274,10 @@ header {
     color: var(--clr-secondary);
   }
 
-  .nav-top .home {
-    color: var(--clr-selected-text);
+  .nav-top__hire {
+    background-color: hsl(var(--clr-theme));
+    font-weight: 700;
+    padding: 0.5em 1.5em;
   }
 
   .nav-toggle {
