@@ -606,9 +606,18 @@ h1 {
 }
 
 @media (min-width: 797px) {
+  .hire__content {
+    display: flex;
+    gap: 2em;
+  }
+
+  .hire__paragraph {
+    flex-basis: 50%;
+  }
+
   .form {
     max-width: 600px;
-    margin-inline: auto;
+    flex-basis: 50%;
   }
 }
 

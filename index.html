@@ -240,52 +240,54 @@
 
     <section class="hire container">
       <h2 id="hire" class="secondary-title">Hire me</h2>
-      <p class="section-paragraph">
-        Feel free to contact me any time, through any method below. <br />
-        Let's make the world better together &#59;&#41;
-      </p>
+      <div class="hire__content">
+        <p class="section-paragraph hire__paragraph">
+          Feel free to contact me any time, through any method below. <br />
+          Let's make the world better together &#59;&#41;
+        </p>
 
-      <form
-        class="form"
-        action="https://formsubmit.co/biliamit@gmail.com"
-        method="POST"
-      >
-        <div class="form__item">
-          <label for="name" class="form__label">Name</label
-          ><input
-            id="name"
-            type="text"
-            name="name"
-            class="form__input"
-            required
+        <form
+          class="form"
+          action="https://formsubmit.co/biliamit@gmail.com"
+          method="POST"
+        >
+          <div class="form__item">
+            <label for="name" class="form__label">Name</label
+            ><input
+              id="name"
+              type="text"
+              name="name"
+              class="form__input"
+              required
+            />
+          </div>
+          <div class="form__item">
+            <label for="email" class="form__label">Email</label
+            ><input
+              id="email"
+              type="email"
+              name="email"
+              class="form__input"
+              required
+            />
+          </div>
+          <div class="form__item">
+            <label for="message" class="form__label">Message</label
+            ><textarea
+              id="message"
+              name="message"
+              class="form__input form__message-input"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://billieam.github.io/portfolio/pages/thankyou.html"
           />
-        </div>
-        <div class="form__item">
-          <label for="email" class="form__label">Email</label
-          ><input
-            id="email"
-            type="email"
-            name="email"
-            class="form__input"
-            required
-          />
-        </div>
-        <div class="form__item">
-          <label for="message" class="form__label">Message</label
-          ><textarea
-            id="message"
-            name="message"
-            class="form__input form__message-input"
-            required
-          ></textarea>
-        </div>
-        <input
-          type="hidden"
-          name="_next"
-          value="https://billieam.github.io/portfolio/pages/thankyou.html"
-        />
-        <button type="submit" class="button theme-btn">Send</button>
-      </form>
+          <button type="submit" class="button theme-btn">Send</button>
+        </form>
+      </div>
     </section>
     <footer>
       <div class="footer__icons">
