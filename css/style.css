@@ -548,7 +548,7 @@ h1 {
   .about__content {
     flex-direction: row-reverse;
     justify-content: space-between;
-    gap: 2em;
+    gap: 4em;
   }
 
   .about__description {
@@ -559,7 +559,7 @@ h1 {
   .skills {
     font-size: 3em;
     margin: 0;
-    align-items: flex-start;
+    align-content: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 0.5em;
@@ -567,12 +567,6 @@ h1 {
 
   .about__photo {
     display: none;
-  }
-}
-
-@media (min-width: 1024px) {
-  .skills {
-    gap: 1em;
   }
 }
 
