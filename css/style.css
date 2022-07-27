@@ -204,6 +204,11 @@ header {
   text-decoration: none;
 }
 
+.nav-top__item:hover,
+.nav-top__item:focus {
+  color: var(--clr-selected-text);
+}
+
 .nav-toggle {
   padding: 0.5em 0;
   background-color: transparent;
@@ -301,6 +306,12 @@ header {
     background-color: hsl(var(--clr-theme));
     font-weight: 700;
     padding: 0.5em 1.5em;
+  }
+
+  .nav-top__hire:hover,
+  .nav-top__hire:focus {
+    background-color: hsl(var(--clr-theme) / 0.75);
+    color: inherit;
   }
 
   .nav-toggle {
