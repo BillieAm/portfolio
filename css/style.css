@@ -365,9 +365,10 @@ h1 {
 .hero__btn {
   margin-bottom: 2em;
   padding: 1em 2em;
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: inline-grid;
+  grid-template-columns: auto auto;
   align-items: center;
+  justify-content: start;
 }
 
 .hero__btn-icon {
