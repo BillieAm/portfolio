@@ -365,7 +365,9 @@ h1 {
 .hero__btn {
   margin-bottom: 2em;
   padding: 1em 2em;
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
 }
 
 .hero__btn-icon {
