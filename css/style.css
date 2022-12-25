@@ -414,7 +414,7 @@ h1 {
   display: block;
   position: relative;
   transform: scale(1.1);
-  transition: transform var(--transform-speed) ease-in-out;
+  transition: transform 350ms ease-in-out;
 }
 
 .photo__container:hover .photo__photo {
